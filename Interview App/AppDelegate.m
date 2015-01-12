@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "TwitterWebInterface.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [FBLoginView class];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -43,6 +45,58 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    // attempt to extract a token from the url
+    if([[url scheme] isEqualToString:@"fb380737495420822"])
+    {
+        return [FBAppCall handleOpenURL:url
+                      sourceApplication:sourceApplication
+                        fallbackHandler:^(FBAppCall *call) {
+                            NSLog(@"In fallback handler");
+                        }];
+    }
+    
+    NSLog(@"%@",[url scheme]);
+    if ([[url scheme] isEqualToString:@"noahtestapp"])
+    {
+        
+        NSDictionary *d = [self parametersDictionaryFromQueryString:[url query]];
+        
+        NSString *token = d[@"oauth_token"];
+        NSString *verifier = d[@"oauth_verifier"];
+        
+        [[TwitterWebInterface sharedInterface] setOAuthToken:token oauthVerifier:verifier];
+        return YES;
+    }
+    return NO;
+}
+
+#pragma mark - Private methods
+
+- (NSDictionary *)parametersDictionaryFromQueryString:(NSString *)queryString {
+    
+    NSMutableDictionary *md = [NSMutableDictionary dictionary];
+    
+    NSArray *queryComponents = [queryString componentsSeparatedByString:@"&"];
+    
+    for(NSString *s in queryComponents) {
+        NSArray *pair = [s componentsSeparatedByString:@"="];
+        if([pair count] != 2) continue;
+        
+        NSString *key = pair[0];
+        NSString *value = pair[1];
+        
+        md[key] = value;
+    }
+    
+    return md;
+}
+
+
 
 #pragma mark - Core Data stack
 

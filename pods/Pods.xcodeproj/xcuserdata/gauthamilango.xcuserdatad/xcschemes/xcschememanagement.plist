@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Interview App-CCBottomRefreshControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Interview App-ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Interview App-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Interview App-STTwitter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Interview App-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Interview App-UIView+TKGeometry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Interview App.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>053713C73CF8B478FF692F87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A864A5E04D11D028633C96C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>68F2EAFE597F5C306819C0FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73FCE1B79F5582FAF71322AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B741271EA3B2BC7A94F114F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9C8B81E54D3E3E26F005B62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC64D1F3FCC7069A16D0E971</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

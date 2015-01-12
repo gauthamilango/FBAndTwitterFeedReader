@@ -1,0 +1,16 @@
+//
+//  Interiew App-Prefix.pch
+//  Interview App
+//
+//  Created by Gautham Ilango on 06/01/15.
+//  Copyright (c) 2015 Gautham Ilango. All rights reserved.
+//
+
+#ifndef Interview_App_Interiew_App_Prefix_pch
+#define Interview_App_Interiew_App_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "config.h"
+
+#endif

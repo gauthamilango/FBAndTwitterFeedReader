@@ -10,11 +10,25 @@
 		3021B14B1A51215F00D376A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3021B14A1A51215F00D376A2 /* main.m */; };
 		3021B14E1A51215F00D376A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3021B14D1A51215F00D376A2 /* AppDelegate.m */; };
 		3021B1511A51215F00D376A2 /* Interview_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3021B14F1A51215F00D376A2 /* Interview_App.xcdatamodeld */; };
-		3021B1541A51215F00D376A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3021B1531A51215F00D376A2 /* ViewController.m */; };
+		3021B1541A51215F00D376A2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3021B1531A51215F00D376A2 /* LoginViewController.m */; };
 		3021B1571A51215F00D376A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3021B1551A51215F00D376A2 /* Main.storyboard */; };
 		3021B1591A51215F00D376A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3021B1581A51215F00D376A2 /* Images.xcassets */; };
 		3021B15C1A51215F00D376A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3021B15A1A51215F00D376A2 /* LaunchScreen.xib */; };
 		3021B1681A51215F00D376A2 /* Interview_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3021B1671A51215F00D376A2 /* Interview_AppTests.m */; };
+		3021B1731A51232B00D376A2 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3021B1721A51232B00D376A2 /* FacebookSDK.framework */; };
+		303A2FC41A5FB3360058045D /* BasicFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 303A2FC31A5FB3360058045D /* BasicFeedCell.m */; };
+		303A2FC71A5FC7A50058045D /* PhotoFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 303A2FC61A5FC7A50058045D /* PhotoFeedCell.m */; };
+		306376D01A638ECD00D654E1 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 306376CF1A638ECD00D654E1 /* Feed.m */; };
+		307269A61A610A4500C7A108 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307269A51A610A4500C7A108 /* FeedTableViewController.m */; };
+		307269A91A610F8600C7A108 /* LinkFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 307269A81A610F8600C7A108 /* LinkFeedCell.m */; };
+		307269AF1A61551F00C7A108 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307269AE1A61551F00C7A108 /* WebViewController.m */; };
+		30B7ACC21A6166E10008BCC4 /* videoFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B7ACC11A6166E10008BCC4 /* videoFeedCell.m */; };
+		30B7ACC51A6242180008BCC4 /* TwitterWebInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B7ACC41A6242170008BCC4 /* TwitterWebInterface.m */; };
+		30CD53571A5ACA7C00348B21 /* FacebookFeedsWebInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CD53561A5ACA7B00348B21 /* FacebookFeedsWebInterface.m */; };
+		30CD53621A5BF67200348B21 /* NSMOCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CD53611A5BF67200348B21 /* NSMOCManager.m */; };
+		30CD536D1A5C298300348B21 /* NSEntityDescription+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CD536C1A5C298300348B21 /* NSEntityDescription+Util.m */; };
+		30CD53701A5C2DBB00348B21 /* Feed+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CD536F1A5C2DBB00348B21 /* Feed+Util.m */; };
+		C348AE6FC985983324BAE8BC /* libPods-Interview App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6719A17DB521B0B5F3D803FC /* libPods-Interview App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +48,44 @@
 		3021B14C1A51215F00D376A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3021B14D1A51215F00D376A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3021B1501A51215F00D376A2 /* Interview_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Interview_App.xcdatamodel; sourceTree = "<group>"; };
-		3021B1521A51215F00D376A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3021B1531A51215F00D376A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3021B1521A51215F00D376A2 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3021B1531A51215F00D376A2 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		3021B1561A51215F00D376A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3021B1581A51215F00D376A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3021B15B1A51215F00D376A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3021B1611A51215F00D376A2 /* Interview AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3021B1661A51215F00D376A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3021B1671A51215F00D376A2 /* Interview_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interview_AppTests.m; sourceTree = "<group>"; };
+		3021B1721A51232B00D376A2 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		303A2FC21A5FB3360058045D /* BasicFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicFeedCell.h; sourceTree = "<group>"; };
+		303A2FC31A5FB3360058045D /* BasicFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicFeedCell.m; sourceTree = "<group>"; };
+		303A2FC51A5FC7A50058045D /* PhotoFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoFeedCell.h; sourceTree = "<group>"; };
+		303A2FC61A5FC7A50058045D /* PhotoFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoFeedCell.m; sourceTree = "<group>"; };
+		306376CE1A638ECD00D654E1 /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
+		306376CF1A638ECD00D654E1 /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		307269A41A610A4500C7A108 /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		307269A51A610A4500C7A108 /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		307269A71A610F8600C7A108 /* LinkFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkFeedCell.h; sourceTree = "<group>"; };
+		307269A81A610F8600C7A108 /* LinkFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkFeedCell.m; sourceTree = "<group>"; };
+		307269AD1A61551F00C7A108 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		307269AE1A61551F00C7A108 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		30B7ACC01A6166E10008BCC4 /* videoFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoFeedCell.h; sourceTree = "<group>"; };
+		30B7ACC11A6166E10008BCC4 /* videoFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoFeedCell.m; sourceTree = "<group>"; };
+		30B7ACC31A6242170008BCC4 /* TwitterWebInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterWebInterface.h; sourceTree = "<group>"; };
+		30B7ACC41A6242170008BCC4 /* TwitterWebInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterWebInterface.m; sourceTree = "<group>"; };
+		30CD53551A5ACA7B00348B21 /* FacebookFeedsWebInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookFeedsWebInterface.h; sourceTree = "<group>"; };
+		30CD53561A5ACA7B00348B21 /* FacebookFeedsWebInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookFeedsWebInterface.m; sourceTree = "<group>"; };
+		30CD53601A5BF67200348B21 /* NSMOCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMOCManager.h; sourceTree = "<group>"; };
+		30CD53611A5BF67200348B21 /* NSMOCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMOCManager.m; sourceTree = "<group>"; };
+		30CD53691A5C17A900348B21 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		30CD536A1A5C23BF00348B21 /* Interiew App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Interiew App-Prefix.pch"; sourceTree = "<group>"; };
+		30CD536B1A5C298300348B21 /* NSEntityDescription+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSEntityDescription+Util.h"; sourceTree = "<group>"; };
+		30CD536C1A5C298300348B21 /* NSEntityDescription+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSEntityDescription+Util.m"; sourceTree = "<group>"; };
+		30CD536E1A5C2DBB00348B21 /* Feed+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Feed+Util.h"; sourceTree = "<group>"; };
+		30CD536F1A5C2DBB00348B21 /* Feed+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Feed+Util.m"; sourceTree = "<group>"; };
+		49B034F5C7AD1E649D27ACD0 /* Pods-Interview App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Interview App/Pods-Interview App.release.xcconfig"; sourceTree = "<group>"; };
+		4E584C67E02D57CAD176DE4C /* Pods-Interview App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Interview App/Pods-Interview App.debug.xcconfig"; sourceTree = "<group>"; };
+		6719A17DB521B0B5F3D803FC /* libPods-Interview App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Interview App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +93,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3021B1731A51232B00D376A2 /* FacebookSDK.framework in Frameworks */,
+				C348AE6FC985983324BAE8BC /* libPods-Interview App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +114,8 @@
 				3021B1471A51215F00D376A2 /* Interview App */,
 				3021B1641A51215F00D376A2 /* Interview AppTests */,
 				3021B1461A51215F00D376A2 /* Products */,
+				88AFB8BC372E11C0C8AF151F /* Pods */,
+				74A7A16217E853A772EC5A99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +131,12 @@
 		3021B1471A51215F00D376A2 /* Interview App */ = {
 			isa = PBXGroup;
 			children = (
-				3021B14C1A51215F00D376A2 /* AppDelegate.h */,
-				3021B14D1A51215F00D376A2 /* AppDelegate.m */,
-				3021B1521A51215F00D376A2 /* ViewController.h */,
-				3021B1531A51215F00D376A2 /* ViewController.m */,
-				3021B1551A51215F00D376A2 /* Main.storyboard */,
-				3021B1581A51215F00D376A2 /* Images.xcassets */,
-				3021B15A1A51215F00D376A2 /* LaunchScreen.xib */,
-				3021B14F1A51215F00D376A2 /* Interview_App.xcdatamodeld */,
+				30CD53581A5BAE7000348B21 /* Controllers */,
+				30CD53591A5BAE9800348B21 /* Views and Designs */,
+				30CD535A1A5BAEAC00348B21 /* Model */,
+				30CD535C1A5BAF2100348B21 /* Utils */,
+				30CD535B1A5BAEBF00348B21 /* Commons */,
+				3021B1711A5122CE00D376A2 /* Frameworks */,
 				3021B1481A51215F00D376A2 /* Supporting Files */,
 			);
 			path = "Interview App";
@@ -101,6 +147,7 @@
 			children = (
 				3021B1491A51215F00D376A2 /* Info.plist */,
 				3021B14A1A51215F00D376A2 /* main.m */,
+				30CD536A1A5C23BF00348B21 /* Interiew App-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,6 +169,99 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3021B1711A5122CE00D376A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3021B1721A51232B00D376A2 /* FacebookSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30CD53581A5BAE7000348B21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3021B1521A51215F00D376A2 /* LoginViewController.h */,
+				3021B1531A51215F00D376A2 /* LoginViewController.m */,
+				307269A41A610A4500C7A108 /* FeedTableViewController.h */,
+				307269A51A610A4500C7A108 /* FeedTableViewController.m */,
+				307269AD1A61551F00C7A108 /* WebViewController.h */,
+				307269AE1A61551F00C7A108 /* WebViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		30CD53591A5BAE9800348B21 /* Views and Designs */ = {
+			isa = PBXGroup;
+			children = (
+				303A2FC21A5FB3360058045D /* BasicFeedCell.h */,
+				303A2FC31A5FB3360058045D /* BasicFeedCell.m */,
+				303A2FC51A5FC7A50058045D /* PhotoFeedCell.h */,
+				303A2FC61A5FC7A50058045D /* PhotoFeedCell.m */,
+				307269A71A610F8600C7A108 /* LinkFeedCell.h */,
+				307269A81A610F8600C7A108 /* LinkFeedCell.m */,
+				30B7ACC01A6166E10008BCC4 /* videoFeedCell.h */,
+				30B7ACC11A6166E10008BCC4 /* videoFeedCell.m */,
+				3021B1551A51215F00D376A2 /* Main.storyboard */,
+				3021B1581A51215F00D376A2 /* Images.xcassets */,
+				3021B15A1A51215F00D376A2 /* LaunchScreen.xib */,
+			);
+			name = "Views and Designs";
+			sourceTree = "<group>";
+		};
+		30CD535A1A5BAEAC00348B21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				306376CE1A638ECD00D654E1 /* Feed.h */,
+				306376CF1A638ECD00D654E1 /* Feed.m */,
+				3021B14F1A51215F00D376A2 /* Interview_App.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		30CD535B1A5BAEBF00348B21 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				3021B14C1A51215F00D376A2 /* AppDelegate.h */,
+				3021B14D1A51215F00D376A2 /* AppDelegate.m */,
+				30CD53691A5C17A900348B21 /* Config.h */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		30CD535C1A5BAF2100348B21 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				30CD53551A5ACA7B00348B21 /* FacebookFeedsWebInterface.h */,
+				30CD53561A5ACA7B00348B21 /* FacebookFeedsWebInterface.m */,
+				30B7ACC31A6242170008BCC4 /* TwitterWebInterface.h */,
+				30B7ACC41A6242170008BCC4 /* TwitterWebInterface.m */,
+				30CD53601A5BF67200348B21 /* NSMOCManager.h */,
+				30CD53611A5BF67200348B21 /* NSMOCManager.m */,
+				30CD536B1A5C298300348B21 /* NSEntityDescription+Util.h */,
+				30CD536C1A5C298300348B21 /* NSEntityDescription+Util.m */,
+				30CD536E1A5C2DBB00348B21 /* Feed+Util.h */,
+				30CD536F1A5C2DBB00348B21 /* Feed+Util.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		74A7A16217E853A772EC5A99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6719A17DB521B0B5F3D803FC /* libPods-Interview App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88AFB8BC372E11C0C8AF151F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E584C67E02D57CAD176DE4C /* Pods-Interview App.debug.xcconfig */,
+				49B034F5C7AD1E649D27ACD0 /* Pods-Interview App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3021B16B1A51215F00D376A2 /* Build configuration list for PBXNativeTarget "Interview App" */;
 			buildPhases = (
+				F009E670177EC5BE6294D85C /* Check Pods Manifest.lock */,
 				3021B1411A51215F00D376A2 /* Sources */,
 				3021B1421A51215F00D376A2 /* Frameworks */,
 				3021B1431A51215F00D376A2 /* Resources */,
+				FD53A45FC0A565555340F88C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,14 +359,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F009E670177EC5BE6294D85C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD53A45FC0A565555340F88C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Interview App/Pods-Interview App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3021B1411A51215F00D376A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303A2FC71A5FC7A50058045D /* PhotoFeedCell.m in Sources */,
+				30B7ACC21A6166E10008BCC4 /* videoFeedCell.m in Sources */,
+				307269AF1A61551F00C7A108 /* WebViewController.m in Sources */,
 				3021B1511A51215F00D376A2 /* Interview_App.xcdatamodeld in Sources */,
+				30CD536D1A5C298300348B21 /* NSEntityDescription+Util.m in Sources */,
+				306376D01A638ECD00D654E1 /* Feed.m in Sources */,
 				3021B14E1A51215F00D376A2 /* AppDelegate.m in Sources */,
-				3021B1541A51215F00D376A2 /* ViewController.m in Sources */,
+				307269A61A610A4500C7A108 /* FeedTableViewController.m in Sources */,
+				30CD53621A5BF67200348B21 /* NSMOCManager.m in Sources */,
+				3021B1541A51215F00D376A2 /* LoginViewController.m in Sources */,
+				30CD53701A5C2DBB00348B21 /* Feed+Util.m in Sources */,
+				30CD53571A5ACA7C00348B21 /* FacebookFeedsWebInterface.m in Sources */,
+				307269A91A610F8600C7A108 /* LinkFeedCell.m in Sources */,
+				303A2FC41A5FB3360058045D /* BasicFeedCell.m in Sources */,
+				30B7ACC51A6242180008BCC4 /* TwitterWebInterface.m in Sources */,
 				3021B14B1A51215F00D376A2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,21 +534,41 @@
 		};
 		3021B16C1A51215F00D376A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E584C67E02D57CAD176DE4C /* Pods-Interview App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gauthamilango/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interview App/Interiew App-Prefix.pch";
 				INFOPLIST_FILE = "Interview App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3021B16D1A51215F00D376A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B034F5C7AD1E649D27ACD0 /* Pods-Interview App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gauthamilango/Documents/FacebookSDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interview App/Interiew App-Prefix.pch";
 				INFOPLIST_FILE = "Interview App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -418,6 +625,7 @@
 				3021B16D1A51215F00D376A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3021B16E1A51215F00D376A2 /* Build configuration list for PBXNativeTarget "Interview AppTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +634,7 @@
 				3021B1701A51215F00D376A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
