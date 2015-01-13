@@ -15,7 +15,6 @@
 		3021B1591A51215F00D376A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3021B1581A51215F00D376A2 /* Images.xcassets */; };
 		3021B15C1A51215F00D376A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3021B15A1A51215F00D376A2 /* LaunchScreen.xib */; };
 		3021B1681A51215F00D376A2 /* Interview_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3021B1671A51215F00D376A2 /* Interview_AppTests.m */; };
-		3021B1731A51232B00D376A2 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3021B1721A51232B00D376A2 /* FacebookSDK.framework */; };
 		303A2FC41A5FB3360058045D /* BasicFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 303A2FC31A5FB3360058045D /* BasicFeedCell.m */; };
 		303A2FC71A5FC7A50058045D /* PhotoFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 303A2FC61A5FC7A50058045D /* PhotoFeedCell.m */; };
 		306376D01A638ECD00D654E1 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = 306376CF1A638ECD00D654E1 /* Feed.m */; };
@@ -56,7 +55,6 @@
 		3021B1611A51215F00D376A2 /* Interview AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3021B1661A51215F00D376A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3021B1671A51215F00D376A2 /* Interview_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interview_AppTests.m; sourceTree = "<group>"; };
-		3021B1721A51232B00D376A2 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		303A2FC21A5FB3360058045D /* BasicFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicFeedCell.h; sourceTree = "<group>"; };
 		303A2FC31A5FB3360058045D /* BasicFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicFeedCell.m; sourceTree = "<group>"; };
 		303A2FC51A5FC7A50058045D /* PhotoFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoFeedCell.h; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3021B1731A51232B00D376A2 /* FacebookSDK.framework in Frameworks */,
 				C348AE6FC985983324BAE8BC /* libPods-Interview App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +133,6 @@
 				30CD535A1A5BAEAC00348B21 /* Model */,
 				30CD535C1A5BAF2100348B21 /* Utils */,
 				30CD535B1A5BAEBF00348B21 /* Commons */,
-				3021B1711A5122CE00D376A2 /* Frameworks */,
 				3021B1481A51215F00D376A2 /* Supporting Files */,
 			);
 			path = "Interview App";
@@ -167,14 +163,6 @@
 				3021B1661A51215F00D376A2 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3021B1711A5122CE00D376A2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3021B1721A51232B00D376A2 /* FacebookSDK.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		30CD53581A5BAE7000348B21 /* Controllers */ = {

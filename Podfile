@@ -6,6 +6,7 @@ pod 'SDWebImage'
 pod 'CCBottomRefreshControl'
 pod 'STTwitter'
 pod 'SVProgressHUD'
+pod 'Facebook-iOS-SDK'
 end
 
 target 'Interview AppTests' do

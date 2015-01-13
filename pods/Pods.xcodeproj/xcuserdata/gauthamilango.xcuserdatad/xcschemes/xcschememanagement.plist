@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-Interview App-Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Interview App-CCBottomRefreshControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Interview App-Facebook-iOS-SDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,37 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>053713C73CF8B478FF692F87</key>
+		<key>0B05A09715EA3D4C33D8AA9E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2A864A5E04D11D028633C96C</key>
+		<key>3D14AF1BB68124948BFB4324</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>68F2EAFE597F5C306819C0FA</key>
+		<key>83E59D935AE47A630EA03EC0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>73FCE1B79F5582FAF71322AD</key>
+		<key>8E6ADB36604BC6CFA15DE69D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B741271EA3B2BC7A94F114F2</key>
+		<key>911E08435143575A0E147DA3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C9C8B81E54D3E3E26F005B62</key>
+		<key>B986B3854C3B1918369E1AFA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DC64D1F3FCC7069A16D0E971</key>
+		<key>BFE56F2462761CC3E202B06D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D9F97713D53546E58ACFF869</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6DD228DE456746F0DFF4629</key>
 		<dict>
 			<key>primary</key>
 			<true/>
